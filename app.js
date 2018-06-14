@@ -97,6 +97,8 @@ function initApp(config, callback) {
 	require('./route/result/download')(app);
 	if (!config.readonly) {
 		require('./route/new')(app);
+		// Cm add new entry point
+		require('./route/new2')(app);
 		require('./route/task/delete')(app);
 		require('./route/task/run')(app);
 		require('./route/task/edit')(app);
