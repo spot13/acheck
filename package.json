@@ -26,10 +26,10 @@
     "node": ">=4"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
+    "body-parser": "^1.18.3",
     "chalk": "~1.1",
-    "compression": "~1.6",
-    "express": "~4.15.2",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
     "express-hbs": "~1.0",
     "http-headers": "^3.0.1",
     "moment": "~2.19.3",
@@ -39,13 +39,13 @@
   },
   "devDependencies": {
     "bower": "~1.7",
-    "cheerio": "~0.20",
+    "cheerio": "^0.22.0",
     "eslint": "^3.18.0",
     "less": "~2.7",
     "mocha": "^2",
     "pa11y-lint-config": "^1.0.0",
     "proclaim": "^3",
-    "request": "^2.74",
+    "request": "^2.88.0",
     "uglify-js": "~2.6"
   },
   "scripts": {
